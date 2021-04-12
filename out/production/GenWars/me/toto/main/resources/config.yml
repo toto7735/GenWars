@@ -1,0 +1,51 @@
+# Write a message below that will appear when you do not have permission to execute a command.
+# Use Color codes to set message's color.
+# &0, &1, &2, &3, &4, &5, &6, &7, &8, &9, &a, &b, &c, &d, &e, &f, &k, &l, &m, &n, &o, &r
+# Replace with permission using %permission%.
+No-Permission-Message: '&f[&b&lGenWars&f] &cYou do not have permission to execute this command! &7(%permission%)'
+
+# Write down your help message below.
+# Use Color codes to set message's color.
+# &0, &1, &2, &3, &4, &5, &6, &7, &8, &9, &a, &b, &c, &d, &e, &f, &k, &l, &m, &n, &o, &r
+Help-Message: '&f[&b&lGenWars&f] &e[ &f/genwars setup add [name] [material] [second-to-be-summoned] [amount] &f] &e- add new gen! &6/ &e[ &f/genwars remove [name] &f] &e- remove from gen! &6/ &e[ &f/genwars list &f] &e- check gen list!'
+
+# Write down your bad name list message.
+# Use Color codes to set message's color.
+# &0, &1, &2, &3, &4, &5, &6, &7, &8, &9, &a, &b, &c, &d, &e, &f, &k, &l, &m, &n, &o, &r
+# Replace with list using %list%.
+List-Message: '&f[&b&lGenWars&f] &egen list&f: %list%'
+
+# Write a message below that will appear when you successfully added the name.
+# Use Color codes to set message's color.
+# &0, &1, &2, &3, &4, &5, &6, &7, &8, &9, &a, &b, &c, &d, &e, &f, &k, &l, &m, &n, &o, &r
+# Replace with name using %name%.
+Added-Message: '&f[&b&lGenWars&f] &eSuccessfully added &b%name% &eto the gen!'
+
+# Write a message below that will appear when you successfully delete the name.
+# Use Color codes to set message's color.
+# &0, &1, &2, &3, &4, &5, &6, &7, &8, &9, &a, &b, &c, &d, &e, &f, &k, &l, &m, &n, &o, &r
+# Replace with name using %name%.
+Removed-Message: '&f[&b&lGenWars&f] &eSuccessfully removed &b%name% &efrom the gen!'
+
+# Write a message below that will appear when name is not exists.
+# Use Color codes to set message's color.
+# &0, &1, &2, &3, &4, &5, &6, &7, &8, &9, &a, &b, &c, &d, &e, &f, &k, &l, &m, &n, &o, &r
+# Replace with name using %name%.
+Name-Not-Exists-Message: '&f[&b&lGenWars&f] &c%name% &eis not exists!'
+
+# Write a message below that will appear when name is already exists.
+# Use Color codes to set message's color.
+# &0, &1, &2, &3, &4, &5, &6, &7, &8, &9, &a, &b, &c, &d, &e, &f, &k, &l, &m, &n, &o, &r
+# Replace with name using %name%.
+Name-Already-Exists-Message: '&f[&b&lGenWars&f] &b%name% &eis already exists!'
+
+# Write a message below that will appear when material not exists.
+# Use Color codes to set message's color.
+# &0, &1, &2, &3, &4, &5, &6, &7, &8, &9, &a, &b, &c, &d, &e, &f, &k, &l, &m, &n, &o, &r
+# Replace with material using %material%.
+Material-Not-Exists-Message: '&f[&b&lGenWars&f] &c%material% is not a valid material. View the material list: &b&nhttps://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html'
+
+# Write a message below that will appear when config reloaded.
+# Use Color codes to set message's color.
+# &0, &1, &2, &3, &4, &5, &6, &7, &8, &9, &a, &b, &c, &d, &e, &f, &k, &l, &m, &n, &o, &r
+Reloaded-Message: '&f[&b&lGenWars&f] &areloaded config file!'

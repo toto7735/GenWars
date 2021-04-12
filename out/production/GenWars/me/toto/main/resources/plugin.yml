@@ -1,0 +1,7 @@
+name: GenWars
+version: 0.1
+main: me.toto.main.GenWars
+author: toto7735
+description: Plugin for GenWars servers!
+commands:
+  genwars:
